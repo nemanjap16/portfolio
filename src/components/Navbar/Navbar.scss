@@ -1,5 +1,10 @@
+$white: #fff;
+
 .app__navbar {
   width: 100%;
   display: flex;
   align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba($white, 0.25);
+  backdrop-filter: blur(4px);
 }
