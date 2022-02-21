@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar'
 import {
   About,
   Footer,
-  Header,
+  Hero,
   Skils,
   Testimonials,
   Work,
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      <Header />
+      <Hero />
       <About />
       <Work />
       <Skils />

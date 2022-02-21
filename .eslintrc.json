@@ -3,7 +3,12 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -12,6 +17,8 @@
     "sourceType": "module"
   },
   "ignorePatterns": ["post.config.js", "vite.config.js", "**/vendor/*.js"],
-  "plugins": ["react"],
-  "rules": {}
+  "plugins": ["react", "jsx-a11y"],
+  "rules": {
+    "react/prop-types": 0
+  }
 }
