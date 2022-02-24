@@ -1,12 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
-// import { images } from '../../constants/index'
 import { HiMenuAlt4, HiX } from 'react-icons/hi'
 import { motion } from 'framer-motion'
 // Style
 import './Navbar.scss'
 
-const links = ['home', 'about', 'work', 'skils', 'contact']
+const links = ['home', 'about', 'work', 'skills', 'contact']
 
 function Navbar() {
   // active link state

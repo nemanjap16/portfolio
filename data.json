@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "title": "NextJS Movie App",
+      "description": "Movie App with NextJS, TailwindCSS, external API and local storage.",
+      "imgUrl": "./movies.png",
+      "tags": ["Web App", "React JS"],
+      "projectLink": "https://nextmovies-tan.vercel.app/",
+      "codeLink": "https://github.com/nemanjap16/nextmovies"
+    },
+    {
+      "title": "Weather App",
+      "description": "Weather App for local weather conditions with external API.",
+      "imgUrl": "./weather.png",
+      "tags": ["Web App"],
+      "projectLink": "",
+      "codeLink": ""
+    },
+    {
+      "title": "Calculator App",
+      "description": "Calculator App with vanilla JS. Simple app with basic arithmetic operations.",
+      "imgUrl": "./calc.jpg",
+      "tags": ["Web App"],
+      "projectLink": "https://calculator-nemanjap83.vercel.app/",
+      "codeLink": "https://github.com/nemanjap16/calculator"
+    },
+    {
+      "title": "Easebank Landing Page",
+      "description": "Landing page for Easebank bank with SASS and vanilla JS.",
+      "imgUrl": "/easybank.png",
+      "tags": ["UI/UX"],
+      "projectLink": "https://easybank-git-main-nemanjap83.vercel.app/",
+      "codeLink": "https://github.com/nemanjap16/Easybank"
+    },
+    {
+      "title": "Todo Readux App",
+      "description": "Tood App with, ReactJS, Redux and local storage for data persitence.",
+      "imgUrl": "/todo.png",
+      "tags": ["Web App", "React JS"],
+      "projectLink": "https://todo-redux-f0zgqs2vs-nemanjap83.vercel.app/",
+      "codeLink": "https://github.com/nemanjap16/todo-redux"
+    },
+    {
+      "title": "Disney Clone App",
+      "description": "Disney Clone App with RectJS, Redux and Firebase.",
+      "imgUrl": "/disneyclone.png",
+      "tags": ["Web App", "React JS"],
+      "projectLink": "https://nemanjadisneyclone.netlify.app/",
+      "codeLink": "https://github.com/nemanjap16/Disney-Clone"
+    },
+    {
+      "title": "Fylo App",
+      "description": "Fylo App with ViteJS, SASS, postCSS. Frontend mentor challange.",
+      "imgUrl": "/fylo.png",
+      "tags": ["UI/UX"],
+      "projectLink": "https://fylo-murex.vercel.app/",
+      "codeLink": "https://github.com/nemanjap16/fylo"
+    }
+  ]
+}

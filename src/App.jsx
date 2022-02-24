@@ -6,8 +6,8 @@ import {
   About,
   Footer,
   Hero,
-  Skils,
-  Testimonials,
+  Skills,
+  // Testimonials,
   Work,
 } from './container/index'
 // Style
@@ -20,8 +20,8 @@ function App() {
       <Hero />
       <About />
       <Work />
-      <Skils />
-      <Testimonials />
+      <Skills />
+      {/* <Testimonials /> */}
       <Footer />
     </div>
   )

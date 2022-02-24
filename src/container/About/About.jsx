@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { AppWrapper } from '../../hoc'
-import { images } from '../../constants'
+import { AppWrapper, MotionWrapper } from '../../hoc'
+// import { images } from '../../constants'
 import './About.scss'
 
 const abouts = [
@@ -9,25 +9,25 @@ const abouts = [
     title: 'Frontend Development',
     description:
       'Creating web apps with custom design, responsive layout, modern look and latest technologies like front-end frameworks.',
-    imgUrl: images.about01,
+    imgUrl: '/react.png',
   },
   {
     title: 'Team work',
     description:
-      'Teamwork is crucial to achieve the best result in short amount of time. I like to work in team, so if you think that I can help and be part of your team, feel free to contact me. I will be happy to answer.',
-    imgUrl: images.about02,
+      'Work on large projects sometimes can be hard, so it is need to be divided in smaller modules which response for particular tasks. Team work is crucial to achieve the best result in short amount of time.',
+    imgUrl: '/teamwork.png',
   },
   {
     title: 'Good practices',
     description:
       'Finding the right solution for your business. Implementing standard libraries or programming custom code that fits your needs.',
-    imgUrl: images.about03,
+    imgUrl: '/good-practice.png',
   },
   {
     title: 'Modern technologies',
     description:
-      'Finding the right solution for your business. Implementing standard libraries or programming custom code that fits your needs.',
-    imgUrl: images.about04,
+      'I mostly work on frontend projects in the ReactJS framework, I love ReactJS, and I try to learn as much as possible about the ecosystem and the libraries that are used.',
+    imgUrl: '/logo.svg',
   },
 ]
 
@@ -35,8 +35,7 @@ const About = () => {
   return (
     <div className="about">
       <h2 className="head-text">
-        Development & <span>Latest technologies</span> <br />
-        <span>Means </span> Successfull Bussines
+        <span>I am Nemanja </span> Web Developer
       </h2>
 
       <div className="app__profiles">
@@ -62,5 +61,8 @@ const About = () => {
   )
 }
 
-// export default AppWrap(MotionWrap(About, 'app__about'), 'about', 'app__whitebg')
-export default AppWrapper(About, 'about', 'about-bg')
+export default AppWrapper(
+  MotionWrapper(About, 'app__about'),
+  'about',
+  'app__whitebg'
+)
