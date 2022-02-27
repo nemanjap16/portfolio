@@ -13,8 +13,8 @@
       "description": "Weather App for local weather conditions with external API.",
       "imgUrl": "./weather.png",
       "tags": ["Web App"],
-      "projectLink": "",
-      "codeLink": ""
+      "projectLink": "https://nweather.netlify.app/",
+      "codeLink": "https://github.com/nemanjap16/weather-app"
     },
     {
       "title": "Calculator App",

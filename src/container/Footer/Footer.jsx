@@ -1,29 +1,29 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { images } from '../../constants'
 import { AppWrapper, MotionWrapper } from '../../hoc'
 // Style
 import './Footer.scss'
 
 const Footer = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' })
-  const [isFormSubmitted, setIsFormSubmitted] = useState(false)
-  const [loading, setLoading] = useState(false)
+  // const [formData, setFormData] = useState({ name: '', email: '', message: '' })
+  // const [isFormSubmitted, setIsFormSubmitted] = useState(false)
+  // const [loading, setLoading] = useState(false)
 
-  const { username, email, message } = formData
+  // const { username, email, message } = formData
 
-  const handleChangeInput = (e) => {
-    const { name, value } = e.target
-    setFormData({ ...formData, [name]: value })
-  }
+  // const handleChangeInput = (e) => {
+  //   const { name, value } = e.target
+  //   setFormData({ ...formData, [name]: value })
+  // }
 
-  const handleSubmit = () => {
-    setLoading(true)
+  // const handleSubmit = () => {
+  //   setLoading(true)
 
-    setTimeout(() => {
-      setLoading(false)
-      setIsFormSubmitted(true)
-    }, 2000)
-  }
+  //   setTimeout(() => {
+  //     setLoading(false)
+  //     setIsFormSubmitted(true)
+  //   }, 2000)
+  // }
 
   return (
     <>
@@ -45,7 +45,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      {!isFormSubmitted ? (
+      {/* {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
           <div className="app__flex">
             <input
@@ -84,7 +84,7 @@ const Footer = () => {
         <div>
           <h3 className="head-text">Thank you for getting in touch!</h3>
         </div>
-      )}
+      )} */}
     </>
   )
 }
