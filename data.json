@@ -55,6 +55,14 @@
       "tags": ["UI/UX"],
       "projectLink": "https://fylo-murex.vercel.app/",
       "codeLink": "https://github.com/nemanjap16/fylo"
+    },
+    {
+      "title": "Nuxt Movies App",
+      "description": "Nuxt Movies App with TMDB movies API.",
+      "imgUrl": "/nuxt-movies_50.png",
+      "tags": ["Vue JS"],
+      "projectLink": "https://reverent-mirzakhani-5b2c74.netlify.app/",
+      "codeLink": "https://github.com/nemanjap16/nuxt_movies"
     }
   ]
 }
