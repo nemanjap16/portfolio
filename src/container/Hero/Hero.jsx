@@ -27,7 +27,7 @@ const Hero = () => (
           <span>👋</span>
           <div style={{ marginLeft: 20 }}>
             <p className="p-text">Hello, I am</p>
-            <h1 className="head-text">Nemanja</h1>
+            <h1 className="head-text">John</h1>
           </div>
         </div>
 

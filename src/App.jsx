@@ -4,10 +4,10 @@ import Navbar from './components/Navbar/Navbar'
 // Sections
 import {
   About,
-  Footer,
+  Contact,
   Hero,
   Skills,
-  // Testimonials,
+  Testimonials,
   Work,
 } from './container/index'
 // Style
@@ -21,8 +21,8 @@ function App() {
       <About />
       <Work />
       <Skills />
-      {/* <Testimonials /> */}
-      <Footer />
+      <Testimonials />
+      <Contact />
     </div>
   )
 }

@@ -11,7 +11,7 @@ const AppWrapper = (Component, idName, classNames) =>
           <Component />
 
           <div className="copyright">
-            <p className="p-text">@2021 - {new Date().getFullYear()} NEMANJA</p>
+            <p className="p-text">@2021 - {new Date().getFullYear()} JOHN</p>
             <p className="p-text">All rights reserved</p>
           </div>
         </div>

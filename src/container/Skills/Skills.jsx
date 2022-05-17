@@ -91,7 +91,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <h2 className="head-text">
-        Technologies <span>stack</span>
+        Technology <span>stack</span>
       </h2>
 
       <div className="app__skills-container">

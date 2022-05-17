@@ -20,12 +20,12 @@ const Schema = yup
   .required()
 
 const config = {
-  service_id: 'service_eylz1va',
-  template_id: 'template_5fmj3m8',
-  user_id: 'user_DqyHZfmHeguNW90Gr1Jmi',
+  service_id: import.meta.env.SERVICE_ID,
+  template_id: import.meta.env.TEMPLATE_ID,
+  user_id: import.meta.env.USER_ID,
 }
 
-const Footer = () => {
+const Contact = () => {
   /**
    * @description - Use Form Hook with validation schema
    */
@@ -78,14 +78,14 @@ const Footer = () => {
       <div className="app__footer-cards">
         <div className="app__footer-card ">
           <img src={images.email} alt="email" />
-          <a href="mailto:nemanjawebdev@gmail.com" className="p-text">
-            nemanjawebdev@gmail.com
+          <a href="mailto:johndoe@gmail.com" className="p-text">
+            johndoe@gmail.com
           </a>
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
           <a href="tel:+381 (0)67/70-49-801" className="p-text">
-            +381 (0)67/70-49-801
+            +381 (0)67/12-34-567
           </a>
         </div>
       </div>
@@ -148,7 +148,7 @@ const Footer = () => {
 }
 
 export default AppWrapper(
-  MotionWrapper(Footer, 'app__footer'),
+  MotionWrapper(Contact, 'app__footer'),
   'contact',
   'app__whitebg'
 )

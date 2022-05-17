@@ -4,7 +4,7 @@ import { AppWrapper, MotionWrapper } from '../../hoc'
 // import { images } from '../../constants'
 import './About.scss'
 
-const abouts = [
+const arr = [
   {
     title: 'Frontend Development',
     description:
@@ -35,11 +35,11 @@ const About = () => {
   return (
     <div className="about">
       <h2 className="head-text">
-        <span>I am Nemanja </span> Web Developer
+        <span>I am John </span> Web Developer
       </h2>
 
       <div className="app__profiles">
-        {abouts.map((about, index) => (
+        {arr.map((about, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
